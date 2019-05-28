@@ -1,7 +1,8 @@
 # clojure-presentation
 
 Kode fra presentasjon holdt for avdeling for applikasjoner på UiB 24.06.19
-Se slides her : https://docs.google.com/presentation/d/e/2PACX-1vS8S91G5jW5yxhVoJSQ5mHv8P5ztbxXyOx1un_Sjx7zoLJzbiBCsQ3IkSfPVeitF7QDPcRbiR7_V7I-/pub?start=false&loop=false&delayms=3000
+
+Se slides her : [Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vS8S91G5jW5yxhVoJSQ5mHv8P5ztbxXyOx1un_Sjx7zoLJzbiBCsQ3IkSfPVeitF7QDPcRbiR7_V7I-/pub?start=false&loop=false&delayms=3000)
 
 ## License
 
