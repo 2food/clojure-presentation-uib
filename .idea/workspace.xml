@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f15db2fd-3f38-4fbc-80a3-4f94a0037b91" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/clojure_presentation/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135">
+              <caret selection-end-line="1" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/clojure_presentation/core.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-1" />
+    <option name="width" value="1024" />
+    <option name="height" value="536" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Clojure.IDE" />
+  </component>
+  <component name="ReplState" timestamp="1558698420184">{:repl-history {:ide [], :local [{:command &quot;(filter even? [1 2 3 4 6])&quot;, :offset 26, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(conj got-names \&quot;Sam\&quot;)&quot;, :offset 22, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(disj got-names \&quot;Bran\&quot;)&quot;, :offset 23, :ns &quot;clojure-presentation.core&quot;} {:command &quot;got-names&quot;, :offset 9, :ns &quot;clojure-presentation.core&quot;} {:command &quot;favorite-animals&quot;, :offset 16, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(take 100 (repeat 1))&quot;, :offset 21, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn fib\n  [n m counter]\n  (if (pos-int? (dec counter))\n    (cons n (fib m (+ n m) (dec counter)))\n    [n]))&quot;, :offset 109, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(+ 3 5)&quot;, :offset 7, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(+ 3 5 6 7 )&quot;, :offset 12, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(* 3 5 6 7)&quot;, :offset 11, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(- 3 5 6 7)&quot;, :offset 11, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def x 8)&quot;, :offset 9, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def y 11)&quot;, :offset 10, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(+ x y)&quot;, :offset 7, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def hello (fn [x] (str \&quot;Hello, \&quot; x \&quot;!\&quot;)))&quot;, :offset 42, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(hello \&quot;World\&quot;)&quot;, :offset 15, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn hello-world []\n  (println \&quot;Hello, World!\&quot;))&quot;, :offset 49, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(hello-world)&quot;, :offset 13, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn arg-count\n  ([] 0)\n  ([x] 1)\n  ([x y] 2)\n  ([x y &amp; more] (+ 2 (count more))))&quot;, :offset 83, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn arg-count\n  ([] 0)\n  ([x] 1)\n  ([x y] 2)\n  ([x y &amp; more] \n   (println more)\n   (+ 2 (count more))))&quot;, :offset 105, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn arg-count\n  ([] 0)\n  ([x] 1)\n  ([x y] 2)\n  ([x &amp; more]\n   (println more)\n   (+ 1 (count more))))&quot;, :offset 102, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn arg-count\n  ([] 0)\n  ([x] 1)\n  ([x &amp; more]\n   (println more)\n   (+ 1 (count more))))&quot;, :offset 90, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(arg-count 1 1 1 1 1)&quot;, :offset 21, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn make-adder [x]\n  (let [y x]\n    (fn [z] (+ y z))))&quot;, :offset 56, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def add2 (make-adder 2))&quot;, :offset 25, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(add2 4)&quot;, :offset 8, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(even? 2)&quot;, :offset 9, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(even? 3)&quot;, :offset 9, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(filter even? [1 2 3 4 5 6])&quot;, :offset 28, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(filter #(not (even? %)) [1 2 3 4 5 6])&quot;, :offset 39, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(filter odd? [1 2 3 4 5 6])&quot;, :offset 27, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def person {:first-name \&quot;Tormod\&quot;\n             :last-name  \&quot;Mathiesen\&quot;\n             :birth-date \&quot;1996-07-15\&quot;})&quot;, :offset 110, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(:first-name person)&quot;, :offset 20, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(assoc person :eye-color \&quot;blue\&quot;)&quot;, :offset 32, :ns &quot;clojure-presentation.core&quot;} {:command &quot;person&quot;, :offset 6, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(dissoc person :birth-date)&quot;, :offset 27, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn add-eye-color [value] (assoc person :eye-color value))&quot;, :offset 60, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(add-eye-color \&quot;blue\&quot;)&quot;, :offset 22, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(dissoc (add-eye-color \&quot;blue\&quot;)\n        :birth-date)&quot;, :offset 51, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(-&gt; (add-eye-color \&quot;blue\&quot;)\n    (dissoc :birth-date)\n    (assoc :talent \&quot;lots\&quot;))&quot;, :offset 79, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def got-names #{\&quot;Daenarys\&quot; \&quot;Sansa\&quot; \&quot;Tyrion\&quot; \&quot;Bran\&quot; \&quot;Aegon\&quot;})&quot;, :offset 61, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(-&gt; got-names\n    (conj \&quot;Sam\&quot;)\n    (conj \&quot;Sam\&quot;)\n    (conj \&quot;Sam\&quot;))&quot;, :offset 65, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def favorite-animals [\&quot;Hawk\&quot; \&quot;Bear\&quot; \&quot;Wolf\&quot;])&quot;, :offset 45, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(nth favorite-animals 0)&quot;, :offset 24, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(subvec favorite-animals 0 2)&quot;, :offset 29, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(conj favorite-animals \&quot;Giraffe\&quot;)&quot;, :offset 33, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def todo-list (list \&quot;Read more book\&quot;\n                     \&quot;Exercise\&quot;\n                     \&quot;Get money\&quot;\n                     \&quot;Become happy\&quot;))&quot;, :offset 140, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(cons \&quot;Become happy\&quot; todo-list)&quot;, :offset 31, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(reverse todo-list)&quot;, :offset 19, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(sort todo-list)&quot;, :offset 16, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(let [my-vector [1 2 3 4]\n      my-map {:fred \&quot;ethel\&quot;}\n      my-set #{:a :b :c}\n      my-list (list 4 3 2 1)]\n  (list\n    (conj my-vector 5)\n    (assoc my-map :ricky \&quot;lucy\&quot;)\n    (conj my-list 5)\n    ;the originals are intact\n    my-vector\n    my-map\n    my-list))&quot;, :offset 263, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(filter even? [1 2 3 4])&quot;, :offset 24, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(sort [4 3 2 1])&quot;, :offset 16, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(map inc [1 2 3 4])&quot;, :offset 19, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(reduce max [1 2 3 2 1])&quot;, :offset 24, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(take 10 (cycle [1 2 3 4]))&quot;, :offset 27, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(take 10 (repeat 1))&quot;, :offset 20, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(reduce min [1 2 3 2 1])&quot;, :offset 24, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(reduce #(rand-int 5) [1 2 3 2 1])&quot;, :offset 34, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(map (constantly 1) [1 2 3 4])&quot;, :offset 30, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn fib\n  [n m counter]\n  (if (&gt; counter 1)\n    (cons n (fib m (+ n m) (dec counter)))\n    [n]))&quot;, :offset 98, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(fib 0 1 100)&quot;, :offset 13, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(fib 0 1 10)&quot;, :offset 12, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn my-zipmap [keys vals]\n  (loop [my-map {}\n         my-keys (seq keys)\n         my-vals (seq vals)]\n    (if (and (not-empty my-keys) (not-empty my-vals))\n      (recur (assoc my-map (first my-keys) (first my-vals))\n             (rest my-keys)\n             (rest my-vals))\n      my-map)))&quot;, :offset 290, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(my-zipmap [:a :b :c] [1 2 3])&quot;, :offset 30, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if true\n  1\n  2)&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if \&quot;hei\&quot;\n  1\n  2)&quot;, :offset 18, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if false\n  1\n  2)&quot;, :offset 18, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if nil\n  1\n  2)&quot;, :offset 16, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if [1 2]\n  1\n  2)&quot;, :offset 18, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if 0\n  1\n  2)&quot;, :offset 14, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if -1\n  1\n  2)&quot;, :offset 15, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def thing {:thing \&quot;stuff\&quot;})&quot;, :offset 28, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(:something thing)&quot;, :offset 18, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if (:something thing)\n  \&quot;ja\&quot;\n  \&quot;nei\&quot;)&quot;, :offset 38, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(if (:thing thing)\n  \&quot;ja\&quot;\n  \&quot;nei\&quot;)&quot;, :offset 34, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(read-string \&quot;(+ 1 2 3)\&quot;)&quot;, :offset 25, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(eval (read-string \&quot;(+ 1 2 3)\&quot;))&quot;, :offset 32, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(and true false)&quot;, :offset 16, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(and true true)&quot;, :offset 15, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(macroexpand '(and 1 true false))&quot;, :offset 33, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defmulti encounter (fn [x y] [(:Species x) (:Species y)]) )\n(defmethod encounter [:Bunny :Lion] [b l] :run-away)\n(defmethod encounter [:Lion :Bunny] [l b] :eat)\n(defmethod encounter [:Lion :Lion] [l1 l2] :fight)\n(defmethod encounter [:Bunny :Bunny] [b1 b2] :mate)\n(defmethod encounter :default [x y] :nothing)&quot;, :offset 310, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def b1 {:Species :Bunny :other :stuff})\n(def b2 {:Species :Bunny :other :stuff})\n(def l1 {:Species :Lion :other :stuff})\n(def l2 {:Species :Lion :other :stuff})&quot;, :offset 161, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(encounter b1 b2)&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(encounter b1 l1)&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(encounter l1 b1)&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(encounter l1 l2)&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(encounter {} {})&quot;, :offset 17, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(import '[java.time LocalDate])&quot;, :offset 31, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn add-week ^LocalDate [^LocalDate date]\n  (.plusDays date 7))&quot;, :offset 65, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn day-&gt;str [^LocalDate date]\n  (format \&quot;%s %s, %s\&quot; (.getMonth date) (.getDayOfMonth date) (.getYear date)))&quot;, :offset 111, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def future-weeks (iterate add-week (LocalDate/now)))&quot;, :offset 53, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(take 3 future-weeks)&quot;, :offset 21, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(map day-&gt;str (take 4 future-weeks))&quot;, :offset 36, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(import '(javax.swing JFrame JLabel JTextField JButton))&quot;, :offset 56, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(import '(java.awt.event ActionListener))&quot;, :offset 41, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(import '(java.awt GridLayout))&quot;, :offset 31, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(defn celsius []\n  (let [frame (JFrame. \&quot;Celsius Converter\&quot;)\n        temp-text (JTextField.)\n        celsius-label (JLabel. \&quot;Celsius\&quot;)\n        convert-button (JButton. \&quot;Convert\&quot;)\n        fahrenheit-label (JLabel. \&quot;Fahrenheit\&quot;)]\n    (.addActionListener\n      convert-button\n      (reify ActionListener\n        (actionPerformed\n          [_ evt]\n          (let [c (Double/parseDouble (.getText temp-text))]\n            (.setText fahrenheit-label\n                      (str (+ 32 (* 1.8 c)) \&quot; Fahrenheit\&quot;))))))\n    (doto frame\n      (.setLayout (GridLayout. 2 2 3 3))\n      (.add temp-text)\n      (.add celsius-label)\n      (.add convert-button)\n      (.add fahrenheit-label)\n      (.setSize 300 80)\n      (.setVisible true))))&quot;, :offset 724, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(def frame (celsius))&quot;, :offset 21, :ns &quot;clojure-presentation.core&quot;} {:command &quot;(doto frame\n    (.setSize 500 300))&quot;, :offset 35, :ns &quot;clojure-presentation.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="clojure-presentation" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f15db2fd-3f38-4fbc-80a3-4f94a0037b91" name="Default Changelist" comment="" />
+      <created>1558619608645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558619608645</updated>
+      <workItem from="1558619613110" duration="265000" />
+      <workItem from="1558619967352" duration="19728000" />
+      <workItem from="1558699379565" duration="149000" />
+      <workItem from="1559032018895" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20149000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Leiningen" order="4" sideWeight="0.49945474" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info active="true" anchor="right" x="629" y="69" width="661" height="923" id="REPL" order="7" sideWeight="0.50054526" visible="true" weight="0.23585913" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="REPL" order="12" sideWeight="0.50054526" visible="true" weight="0.33696836" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Leiningen" order="4" sideWeight="0.49945474" weight="0.32977587" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/event/ActionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clojure_presentation/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>clojure-presentation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: org.clojure/clojure:1.10.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
