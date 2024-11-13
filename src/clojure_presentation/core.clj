@@ -11,17 +11,20 @@
 
 
 
-;; REPL
+;; Lisp
+
+(+ 1 2)
 
 (- 3 5 6 7)
 
 
 (def x 8)
 (def y 11)
+
 (+ x y)
 
 
-;; Dynamic Compilation
+;; Dynamisk miljø
 
 
 
@@ -56,10 +59,12 @@
 ;; Functional Programming
 
 (def hello (fn [x] (str "Hello, " x "!")))
+
 (hello "World")
 
 (defn hello-world []
-  (println "Hello, World!"))
+  (println (hello "World")))
+
 (hello-world)
 
 (defn arg-count
@@ -68,7 +73,8 @@
   ([x & more]
    (println more)
    (+ 1 (count more))))
-(arg-count 1 1 1 1 1)
+
+(arg-count 1 2 3 4 5)
 
 
 
@@ -92,14 +98,15 @@
 ;; First-class functions
 
 (defn make-adder [x]
-  (let [y x]
-    (fn [z] (+ y z))))
+  (fn [y] (+ x y)))
+
 (def add2 (make-adder 2))
+
 (add2 4)
 
 (even? 2)
 (even? 3)
-(filter odd? [1 2 3 4 5 6])
+(filter even? [1 2 3 4 5 6])
 
 
 
@@ -172,17 +179,17 @@ favorite-animals
 
 
 (let [my-vector [1 2 3 4]
-      my-map {:fred "ethel"}
-      my-set #{:a :b :c}
-      my-list (list 4 3 2 1)]
+      my-map    {:fred "ethel"}
+      my-set    #{:a :b :c}
+      my-list   (list 4 3 2 1)]
   (list
-    (conj my-vector 5)
-    (assoc my-map :ricky "lucy")
-    (conj my-list 5)
-    ;the originals are intact
-    my-vector
-    my-map
-    my-list))
+   (conj my-vector 5)
+   (assoc my-map :ricky "lucy")
+   (conj my-list 5)
+   ;the originals are intact
+   my-vector
+   my-map
+   my-list))
 
 
 
@@ -194,7 +201,7 @@ favorite-animals
 
 (let [my-vector [1 2 3 4]
       my-map    {:fred "ethel" :ricky "lucy"}
-      my-list (list 4 3 2 1)]
+      my-list   (list 4 3 2 1)]
   [(first my-vector)
    (rest my-vector)
    (first my-map)
@@ -228,7 +235,7 @@ favorite-animals
 (fib 0 1 10)
 
 (defn my-zipmap [keys vals]
-  (loop [my-map {}
+  (loop [my-map  {}
          my-keys (seq keys)
          my-vals (seq vals)]
     (if (and (not-empty my-keys) (not-empty my-vals))
@@ -309,7 +316,7 @@ favorite-animals
 
 ;; Runtime Polymorphism
 
-(defmulti encounter (fn [x y] [(:Species x) (:Species y)]) )
+(defmulti encounter (fn [x y] [(:Species x) (:Species y)]))
 (defmethod encounter [:Bunny :Lion] [b l] :run-away)
 (defmethod encounter [:Lion :Bunny] [l b] :eat)
 (defmethod encounter [:Lion :Lion] [l1 l2] :fight)
@@ -408,35 +415,36 @@ favorite-animals
 (import '(javax.swing JFrame JLabel JTextField JButton))
 (import '(java.awt.event ActionListener))
 (import '(java.awt GridLayout))
-(defn celsius []
-  (let [frame (JFrame. "Celsius Converter")
-        temp-text (JTextField.)
-        celsius-label (JLabel. "Celsius")
-        convert-button (JButton. "Convert")
+(defn celsius-converter []
+  (let [frame            (JFrame. "Celsius Converter")
+        temp-text        (JTextField.)
+        celsius-label    (JLabel. "Celsius")
+        convert-button   (JButton. "Convert")
         fahrenheit-label (JLabel. "Fahrenheit")]
     (.addActionListener
-      convert-button
-      (reify ActionListener
-        (actionPerformed
-          [_ evt]
-          (let [c (Double/parseDouble (.getText temp-text))]
-            (.setText fahrenheit-label
-                      (str (+ 32 (* 1.8 c)) " Fahrenheit"))))))
+     convert-button
+     (reify ActionListener
+       (actionPerformed
+         [_ evt]
+         (let [c (Double/parseDouble (.getText temp-text))]
+           (.setText fahrenheit-label
+                     (str (+ 32 (* 1.8 c)) " Fahrenheit"))))))
     (doto frame
-      (.setLayout (GridLayout. 2 2 3 3))
-      (.add temp-text)
-      (.add celsius-label)
-      (.add convert-button)
-      (.add fahrenheit-label)
-      (.setSize 300 80)
-      (.setVisible true))))
+          (.setLayout (GridLayout. 2 2 3 3))
+          (.add temp-text)
+          (.add celsius-label)
+          (.add convert-button)
+          (.add fahrenheit-label)
+          (.setSize 300 80)
+          (.setVisible true))))
 
 (comment
 
-  (def frame (celsius))
+  (def frame (celsius-converter))
 
   (doto frame
-    (.setSize 500 300)))
+        (.setSize 1000 500))
+
+  )
 
 ;; Clojurescript figwheel
-
